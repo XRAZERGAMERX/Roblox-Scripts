@@ -26,7 +26,7 @@ local Window = Rayfield:CreateWindow({
    }
 })
 
-local MainTab = Window:CreateTab("Main", nil) -- Title, Image
+local MainTab = Window:CreateTab("Scripts", nil) -- Title, Image
 local MainSection = MainTab:CreateSection("Main")
 
 Rayfield:Notify({
@@ -182,6 +182,27 @@ loop = RunService.RenderStepped:Connect(function()
 end)
    end,
 })
+
+local Tab = Window:CreateTab("Build-In Features", nil) -- Title, Image
+
+local Input = Tab:CreateInput({
+   Name = "Walk Speed",
+   PlaceholderText = "16-300",
+   RemoveTextAfterFocusLost = false,
+   Callback = function(Text)
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = (Text)
+   end,
+})
+
+local Input = Tab:CreateInput({
+   Name = "Jump Power",
+   PlaceholderText = "1-200",
+   RemoveTextAfterFocusLost = false,
+   Callback = function(Text)
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = (Text)
+   end,
+})
+
 
 local Tab = Window:CreateTab("Info", nil) -- Title, Image
 
