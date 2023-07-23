@@ -31,7 +31,7 @@ local MainSection = MainTab:CreateSection("Main")
 
 Rayfield:Notify({
    Title = "Executed The Script Successfully",
-   Content = "A Good Script Hub",
+   Content = "A Good Script Hub With Build-In Features",
    Duration = 5,
    Image = nil,
    Actions = { -- Notification Buttons
