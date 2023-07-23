@@ -187,7 +187,7 @@ local Tab = Window:CreateTab("Build-In Features", nil) -- Title, Image
 
 local Input = Tab:CreateInput({
    Name = "Walk Speed",
-   PlaceholderText = "16-300",
+   PlaceholderText = "1-500",
    RemoveTextAfterFocusLost = false,
    Callback = function(Text)
         game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = (Text)
@@ -196,7 +196,7 @@ local Input = Tab:CreateInput({
 
 local Input = Tab:CreateInput({
    Name = "Jump Power",
-   PlaceholderText = "1-200",
+   PlaceholderText = "1-500",
    RemoveTextAfterFocusLost = false,
    Callback = function(Text)
         game.Players.LocalPlayer.Character.Humanoid.JumpPower = (Text)
