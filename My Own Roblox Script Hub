@@ -73,7 +73,7 @@ local Button = MainTab:CreateButton({
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Homebrew",
+   Name = "Homebrew Admin",
    Callback = function()
         loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Syntaxx64/HomebrewAdmin/master/Main"))()
    end,
