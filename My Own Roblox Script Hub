@@ -7,7 +7,7 @@ local Window = Rayfield:CreateWindow({
    ConfigurationSaving = {
       Enabled = true,
       FolderName = nil, -- Create a custom folder for your hub/game
-      FileName = "Player Changer"
+      FileName = "Script Hub With Build-In Features"
    },
    Discord = {
       Enabled = true,
@@ -55,6 +55,27 @@ local Button = MainTab:CreateButton({
    Name = "CMD-X",
    Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Fate’s Admin",
+   Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Leg Admin V2",
+   Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/leg1337/legadmv2/main/legadminv2.lua'))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Homebrew",
+   Callback = function()
+        loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Syntaxx64/HomebrewAdmin/master/Main"))()
    end,
 })
 
