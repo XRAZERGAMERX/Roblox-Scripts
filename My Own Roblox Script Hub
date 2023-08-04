@@ -52,6 +52,13 @@ local Button = MainTab:CreateButton({
 })
 
 local Button = MainTab:CreateButton({
+   Name = "CMD-X",
+   Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
    Name = "Westbound Inf Ammo",
    Callback = function()
         local mods = {
