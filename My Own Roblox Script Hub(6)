@@ -44,6 +44,6 @@ Rayfield:Notify({
 },
 })
 
-local Paragraph = Tab:CreateParagraph({Title = "Homebrew Admin", Content = "Any Game"}
+local Paragraph = Tab:CreateParagraph({Title = "Pearl Hub", Content = "Shark Bite 2"}
     
-local Paragraph = Tab:CreateParagraph({Title = "Infinite Ammo", Content = "Westbound"}
+local Paragraph = Tab:CreateParagraph({Title = "Notoriety Requiem", Content = "Notoriety"}
