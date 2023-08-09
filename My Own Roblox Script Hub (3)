@@ -47,3 +47,10 @@ Rayfield:Notify({
 local Paragraph = Tab:CreateParagraph({Title = "Fate’s Admin", Content = "Any Game"}
 
 local Paragraph = Tab:CreateParagraph({Title = "Leg Admin V2", Content = "Any Game"}
+
+local Button = Tab:CreateButton({
+   Name = "Back To Main Menu",
+   Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/XRAZERGAMERX/Roblox-Scripts/main/My%20Own%20Roblox%20Script%20Hub"))()
+   end,
+})
