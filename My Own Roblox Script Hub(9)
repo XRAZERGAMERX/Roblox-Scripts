@@ -1,1 +1,49 @@
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/UI-Interface/CustomFIeld/main/RayField.lua'))()
 
+local Window = Rayfield:CreateWindow({
+   Name = "Script Hub With Build-In Features(7)",
+   LoadingTitle = "Loading Script Hub With Build-In Features(7)",
+   LoadingSubtitle = "by RAZER#6027",
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "Big Hub"
+   },
+   Discord = {
+      Enabled = false,
+      Invite = "sirius", -- The Discord invite code, do not include discord.gg/
+      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+   },
+   KeySystem = false, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "Sirius Hub",
+      Subtitle = "Key System",
+      Note = "Join the discord (discord.gg/sirius)",
+      FileName = "SiriusKey",
+      SaveKey = true,
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = "Hello"
+   }
+})
+
+local Tab = Window:CreateTab("Important", nil) -- Title, Image
+local Section = Tab:CreateSection("Important")
+
+Rayfield:Notify({
+   Title = "Script Hub With Build-In Features(2)",
+   Content = "Important",
+   Duration = 1,
+   Image = 4483362458,
+   Actions = { -- Notification Buttons
+      Ignore = {
+         Name = "Okay!",
+         Callback = function()
+         print("The user tapped Okay!")
+      end
+   },
+},
+})
+
+local Paragraph = Tab:CreateParagraph({Title = "Vape V4", Content = "BedWars"}
+    
+local Paragraph = Tab:CreateParagraph({Title = "Ro-Xploit v6.0", Content = "Any Game"}
