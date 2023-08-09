@@ -46,6 +46,8 @@ Rayfield:Notify({
 
 local Paragraph = Tab:CreateParagraph({Title = "P II Shade v5.2", Content = "Any Game"}
 
+local Paragraph = Tab:CreateParagraph({Title = "Nyula", Content = "DaHood"}
+
 local Button = Tab:CreateButton({
    Name = "Back To Main Menu",
    Callback = function()
