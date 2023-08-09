@@ -683,45 +683,6 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Tab = Window:CreateTab("What Script Supports The Game", nil) -- Title, Image
-
-local Paragraph = Tab:CreateParagraph({Title = "Infinite Yield", Content = "Any Game"})
-
-local Paragraph = Tab:CreateParagraph({Title = "CMD-X", Content = "Any Game"})
-
-local Paragraph = Tab:CreateParagraph({Title = "Fate’s Admin", Content = "Any Game"}
-    
-local Paragraph = Tab:CreateParagraph({Title = "Leg Admin V2", Content = "Any Game"}
-
-local Paragraph = Tab:CreateParagraph({Title = "Homebrew Admin", Content = "Any Game"}
-    
-local Paragraph = Tab:CreateParagraph({Title = "Infinite Ammo", Content = "Westbound"}
-    
-local Paragraph = Tab:CreateParagraph({Title = "Overkill Tuning Garage", Content = "Greenville"}
-    
-local Paragraph = Tab:CreateParagraph({Title = "Vynixius Hub", Content = "Doors"}
-    
-local Paragraph = Tab:CreateParagraph({Title = "Pearl Hub", Content = "Shark Bite 2"}
-    
-local Paragraph = Tab:CreateParagraph({Title = "Notoriety Requiem", Content = "Notoriety"}
-    
-local Paragraph = Tab:CreateParagraph({Title = "Domain X", Content = "Any Game"}
-    
-local Paragraph = Tab:CreateParagraph({Title = "Aqua Modz", Content = "Destruction Simulator"}
-    
-local Paragraph = Tab:CreateParagraph({Title = "Aimbot TeamCheck On/True", Content = "Any Game"}
-    
-local Paragraph = Tab:CreateParagraph({Title = "Aimbot TeamCheck Off/False", Content = "Any Game"}
-    
-local Paragraph = Tab:CreateParagraph({Title = "Vape V4", Content = "BedWars"}
-    
-local Paragraph = Tab:CreateParagraph({Title = "Ro-Xploit v6.0", Content = "Any Game"}
-    
-local Paragraph = Tab:CreateParagraph({Title = "Energize Animations", Content = "Any Game"}
-    
-local Paragraph = Tab:CreateParagraph({Title = "Fe Bypass V.5", Content = "Prison Life"}
-
-
 local Tab = Window:CreateTab("Info", nil) -- Title, Image
 
 local Paragraph = Tab:CreateParagraph({Title = "Info", Content = "By RAZER#6027"})
