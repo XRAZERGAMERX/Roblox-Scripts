@@ -1,28 +1,28 @@
-local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/UI-Interface/CustomFIeld/main/RayField.lua'))()
 
 local Window = Rayfield:CreateWindow({
    Name = "Script Hub With Build-In Features",
    LoadingTitle = "Loading Script Hub With Build-In Features",
    LoadingSubtitle = "By RAZER#6027",
    ConfigurationSaving = {
-      Enabled = true,
+      Enabled = false,
       FolderName = nil, -- Create a custom folder for your hub/game
       FileName = "Script Hub With Build-In Features"
    },
    Discord = {
       Enabled = true,
-      Invite = "5tBNqX3Ngp", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
+      Invite = "5tBNqX3Ngp", -- The Discord invite code, do not include discord.gg/
       RememberJoins = true -- Set this to false to make them join the discord every time they load it up
    },
-   KeySystem = false, -- Set this to true to use our key system
+   KeySystem = true, -- Set this to true to use our key system
    KeySettings = {
-      Title = "Untitled",
+      Title = "Script Hub With Build-In Features",
       Subtitle = "Key System",
-      Note = "No method of obtaining the key is provided",
-      FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
-      SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      Note = "The Key Is : Beta   Join the discord (discord.gg/5tBNqX3Ngp)",
+      FileName = "Script Hub",
+      SaveKey = true,
       GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-      Key = {"Hello"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+      Key = "Beta"
    }
 })
 
@@ -32,8 +32,8 @@ local MainSection = MainTab:CreateSection("Main")
 Rayfield:Notify({
    Title = "Executed The Script Successfully",
    Content = "A Good Script Hub With Build-In Features",
-   Duration = 5,
-   Image = nil,
+   Duration = 1,
+   Image = 4483362458,
    Actions = { -- Notification Buttons
       Ignore = {
          Name = "Okay!",
@@ -47,7 +47,7 @@ Rayfield:Notify({
 local Button = MainTab:CreateButton({
    Name = "Infinite Yield",
    Callback = function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+                loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
    end,
 })
 
