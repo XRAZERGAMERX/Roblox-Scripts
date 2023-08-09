@@ -44,6 +44,6 @@ Rayfield:Notify({
 },
 })
 
-local Paragraph = Tab:CreateParagraph({Title = "Fate’s Admin", Content = "Any Game"}
-
-local Paragraph = Tab:CreateParagraph({Title = "Leg Admin V2", Content = "Any Game"}
+local Paragraph = Tab:CreateParagraph({Title = "Overkill Tuning Garage", Content = "Greenville"}
+    
+local Paragraph = Tab:CreateParagraph({Title = "Vynixius Hub", Content = "Doors"}
