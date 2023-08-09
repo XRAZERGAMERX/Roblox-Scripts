@@ -80,7 +80,7 @@ local Button = MainTab:CreateButton({
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Westbound Inf Ammo",
+   Name = "Infinite Ammo",
    Callback = function()
         local mods = {
     Damage = 999, 
@@ -108,21 +108,21 @@ end
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Greenville Overkill Tuning Garage",
+   Name = "Overkill Tuning Garage",
    Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/typical-overk1ll/scripts/main/Greenville", true))()
    end,
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Doors Vynixius Hub",
+   Name = "Vynixius Hub",
    Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
    end,
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Shark Bite 2 Pearl Hub",
+   Name = "Pearl Hub",
    Callback = function()
         loadstring(game:HttpGet('https://ppearl.vercel.app'))()
    end,
@@ -136,14 +136,14 @@ local Button = MainTab:CreateButton({
 })
 
 local Button = MainTab:CreateButton({
-   Name = "DomainX",
+   Name = "Domain X",
    Callback = function()
         loadstring(game:HttpGet('https://sirius.menu/domainx'))() 
    end,
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Destruction Simulator Aqua Modz",
+   Name = "Aqua Modz",
    Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/AquaModz/DestructionSIMModded/main/DestructionSimAqua.lua'))()
    end,
@@ -275,7 +275,7 @@ end)
 })
 
 local Button = MainTab:CreateButton({
-   Name = "BedWars Vape V4",
+   Name = "Vape V4",
    Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
    end,
@@ -296,7 +296,7 @@ local Button = MainTab:CreateButton({
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Fe Bypass V.5 (Prison Life Only)",
+   Name = "Fe Bypass V.5",
    Callback = function()
         s = Instance.new("Sound")
  s.Name = "Music"
@@ -682,6 +682,44 @@ local Button = Tab:CreateButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/XRAZERGAMERX/Roblox-Scripts/main/My%20Own%20Roblox%20Script%20Hub"))()
    end,
 })
+
+local Tab = Window:CreateTab("What Script Supports The Game", nil) -- Title, Image
+
+local Paragraph = Tab:CreateParagraph({Title = "Infinite Yield", Content = "Any Game"})
+
+local Paragraph = Tab:CreateParagraph({Title = "CMD-X", Content = "Any Game"})
+
+local Paragraph = Tab:CreateParagraph({Title = "Fate’s Admin", Content = "Any Game"}
+    
+local Paragraph = Tab:CreateParagraph({Title = "Leg Admin V2", Content = "Any Game"}
+
+local Paragraph = Tab:CreateParagraph({Title = "Homebrew Admin", Content = "Any Game"}
+    
+local Paragraph = Tab:CreateParagraph({Title = "Infinite Ammo", Content = "Westbound"}
+    
+local Paragraph = Tab:CreateParagraph({Title = "Overkill Tuning Garage", Content = "Greenville"}
+    
+local Paragraph = Tab:CreateParagraph({Title = "Vynixius Hub", Content = "Doors"}
+    
+local Paragraph = Tab:CreateParagraph({Title = "Pearl Hub", Content = "Shark Bite 2"}
+    
+local Paragraph = Tab:CreateParagraph({Title = "Notoriety Requiem", Content = "Notoriety"}
+    
+local Paragraph = Tab:CreateParagraph({Title = "Domain X", Content = "Any Game"}
+    
+local Paragraph = Tab:CreateParagraph({Title = "Aqua Modz", Content = "Destruction Simulator"}
+    
+local Paragraph = Tab:CreateParagraph({Title = "Aimbot TeamCheck On/True", Content = "Any Game"}
+    
+local Paragraph = Tab:CreateParagraph({Title = "Aimbot TeamCheck Off/False", Content = "Any Game"}
+    
+local Paragraph = Tab:CreateParagraph({Title = "Vape V4", Content = "BedWars"}
+    
+local Paragraph = Tab:CreateParagraph({Title = "Ro-Xploit v6.0", Content = "Any Game"}
+    
+local Paragraph = Tab:CreateParagraph({Title = "Energize Animations", Content = "Any Game"}
+    
+local Paragraph = Tab:CreateParagraph({Title = "Fe Bypass V.5", Content = "Prison Life"}
 
 
 local Tab = Window:CreateTab("Info", nil) -- Title, Image
