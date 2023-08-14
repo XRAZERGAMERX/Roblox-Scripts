@@ -1,8 +1,8 @@
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/UI-Interface/CustomFIeld/main/RayField.lua'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "Script Hub With Build-In Features(2)",
-   LoadingTitle = "Loading Script Hub With Build-In Features(2)",
+   Name = "Script Hub With Build-In Features (Important Version)",
+   LoadingTitle = "Loading Script Hub With Build-In Features (Important Version)",
    LoadingSubtitle = "by RAZER#6027",
    ConfigurationSaving = {
       Enabled = true,
