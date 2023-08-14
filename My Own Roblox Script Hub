@@ -31,7 +31,7 @@ local MainSection = MainTab:CreateSection("Main")
 
 Rayfield:Notify({
    Title = "Executed The Script Successfully",
-   Content = "A Good Script Hub With Build-In Features",
+   Content = "A Good Script Hub With Build-In Features (Please Use The Important Tab)",
    Duration = 1,
    Image = 4483362458,
    Actions = { -- Notification Buttons
@@ -285,6 +285,13 @@ local Button = MainTab:CreateButton({
    Name = "Vape V4",
    Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "AutoFarm",
+   Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/x3fall3nangel/FallAngelHub/main/DriveWorld.lua"))()
    end,
 })
 
