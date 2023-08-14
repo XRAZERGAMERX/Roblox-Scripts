@@ -46,7 +46,7 @@ Rayfield:Notify({
 
 local Paragraph = Tab:CreateParagraph({Title = "Eclipse Hub", Content = " Free: Murder Mystery 2 , Parkour Ninja , Build A Boat , Adopt Me , Restaurant. Tycoon 2 Premium: Bloxburg , KAT , Breaking Point , Flee The Facility , Scuba Diving at Quill Lake , Destruction Simulator , Word Bomb. Hub Scripts: Universal Tab "})
 
-local Paragraph = Tab:CreateParagraph({Title = "Soon", Content = "Soon"})
+local Paragraph = Tab:CreateParagraph({Title = "AutoFarm", Content = "Drive World"})
 
 local Button = Tab:CreateButton({
    Name = "Back To Main Menu",
