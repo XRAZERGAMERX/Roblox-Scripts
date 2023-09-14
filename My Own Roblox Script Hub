@@ -31,7 +31,7 @@ local MainSection = MainTab:CreateSection("Main")
 
 Rayfield:Notify({
    Title = "Executed The Script Successfully",
-   Content = "A Good Script Hub With Build-In Features (Please Use The Important Tab)",
+   Content = "A Good Script Hub With Build-In Features (Please Use The Important Tab If You Dont Know What Game Supports A Script)",
    Duration = 1,
    Image = 4483362458,
    Actions = { -- Notification Buttons
@@ -694,6 +694,13 @@ local Button = Tab:CreateButton({
    Name = "Restart Script (If Its Buggy)",
    Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/XRAZERGAMERX/Roblox-Scripts/main/My%20Own%20Roblox%20Script%20Hub"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Destroy GUI",
+   Callback = function()
+        Rayfield:Destroy()
    end,
 })
 
