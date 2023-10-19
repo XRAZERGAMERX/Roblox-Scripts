@@ -14,7 +14,7 @@ local Window = Rayfield:CreateWindow({
       Invite = "5tBNqX3Ngp", -- The Discord invite code, do not include discord.gg/
       RememberJoins = true -- Set this to false to make them join the discord every time they load it up
    },
-   KeySystem = ture, -- Set this to true to use our key system
+   KeySystem = true, -- Set this to true to use our key system
    KeySettings = {
       Title = "Script Hub With Build-In Features",
       Subtitle = "Key System",
