@@ -693,7 +693,7 @@ local Input = Tab:CreateInput({
 local Button = Tab:CreateButton({
    Name = "Restart Script (If Its Buggy)",
    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/XRAZERGAMERX/Roblox-Scripts/main/My%20Own%20Roblox%20Script%20Hub"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/XRAZERGAMERX/Roblox-Scripts/main/My%20Own%20Script%20Hub/My%20Own%20Roblox%20Script%20Hub"))()
    end,
 })
 
@@ -709,77 +709,77 @@ local Tab = Window:CreateTab("Important", nil) -- Title, Image
 local Button = Tab:CreateButton({
    Name = "Important 1",
    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/XRAZERGAMERX/Roblox-Scripts/main/My%20Own%20Roblox%20Script%20Hub(2)"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/XRAZERGAMERX/Roblox-Scripts/main/My%20Own%20Script%20Hub/Important%20Tabs/My%20Own%20Roblox%20Script%20Hub(2)"))()
    end,
 })
 
 local Button = Tab:CreateButton({
    Name = "Important 2",
    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/XRAZERGAMERX/Roblox-Scripts/main/My%20Own%20Roblox%20Script%20Hub%20(3)"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/XRAZERGAMERX/Roblox-Scripts/main/My%20Own%20Script%20Hub/Important%20Tabs/My%20Own%20Roblox%20Script%20Hub%20(3)"))()
    end,
 })
 
 local Button = Tab:CreateButton({
    Name = "Important 3",
    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/XRAZERGAMERX/Roblox-Scripts/main/My%20Own%20Roblox%20Script%20Hub(4)"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/XRAZERGAMERX/Roblox-Scripts/main/My%20Own%20Script%20Hub/Important%20Tabs/My%20Own%20Roblox%20Script%20Hub(4)"))()
    end,
 })
 
 local Button = Tab:CreateButton({
    Name = "Important 4",
    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/XRAZERGAMERX/Roblox-Scripts/main/My%20Own%20Roblox%20Script%20Hub(5)"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/XRAZERGAMERX/Roblox-Scripts/main/My%20Own%20Script%20Hub/Important%20Tabs/My%20Own%20Roblox%20Script%20Hub(5)"))()
    end,
 })
 
 local Button = Tab:CreateButton({
    Name = "Important 5",
    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/XRAZERGAMERX/Roblox-Scripts/main/My%20Own%20Roblox%20Script%20Hub(6)"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/XRAZERGAMERX/Roblox-Scripts/main/My%20Own%20Script%20Hub/Important%20Tabs/My%20Own%20Roblox%20Script%20Hub(6)"))()
    end,
 })
 
 local Button = Tab:CreateButton({
    Name = "Important 6",
    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/XRAZERGAMERX/Roblox-Scripts/main/My%20Own%20Roblox%20Script%20Hub(7)"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/XRAZERGAMERX/Roblox-Scripts/main/My%20Own%20Script%20Hub/Important%20Tabs/My%20Own%20Roblox%20Script%20Hub(7)"))()
    end,
 })
 
 local Button = Tab:CreateButton({
    Name = "Important 7",
    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/XRAZERGAMERX/Roblox-Scripts/main/My%20Own%20Roblox%20Script%20Hub(8)"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/XRAZERGAMERX/Roblox-Scripts/main/My%20Own%20Script%20Hub/Important%20Tabs/My%20Own%20Roblox%20Script%20Hub(8)"))()
    end,
 })
 
 local Button = Tab:CreateButton({
    Name = "Important 8",
    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/XRAZERGAMERX/Roblox-Scripts/main/My%20Own%20Roblox%20Script%20Hub(9)"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/XRAZERGAMERX/Roblox-Scripts/main/My%20Own%20Script%20Hub/Important%20Tabs/My%20Own%20Roblox%20Script%20Hub(9)"))()
    end,
 })
 
 local Button = Tab:CreateButton({
    Name = "Important 9",
    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/XRAZERGAMERX/Roblox-Scripts/main/My%20Own%20Roblox%20Script%20Hub(10)"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/XRAZERGAMERX/Roblox-Scripts/main/My%20Own%20Script%20Hub/Important%20Tabs/My%20Own%20Roblox%20Script%20Hub(10)"))()
    end,
 })
 
 local Button = Tab:CreateButton({
    Name = "Important 10",
    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/XRAZERGAMERX/Roblox-Scripts/main/My%20Own%20Roblox%20Script%20Hub(11)"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/XRAZERGAMERX/Roblox-Scripts/main/My%20Own%20Script%20Hub/Important%20Tabs/My%20Own%20Roblox%20Script%20Hub(11)"))()
    end,
 })
 
 local Button = Tab:CreateButton({
    Name = "Important 11",
    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/XRAZERGAMERX/Roblox-Scripts/main/My%20Own%20Roblox%20Script%20Hub%20(12)"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/XRAZERGAMERX/Roblox-Scripts/main/My%20Own%20Script%20Hub/Important%20Tabs/My%20Own%20Roblox%20Script%20Hub%20(12)"))()
    end,
 })
 
