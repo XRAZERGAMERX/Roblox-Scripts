@@ -785,6 +785,6 @@ local Button = Tab:CreateButton({
 
 local Tab = Window:CreateTab("Info", nil) -- Title, Image
 
-local Paragraph = Tab:CreateParagraph({Title = "Info", Content = "By RAZER#6027"})
+local Paragraph = Tab:CreateParagraph({Title = "Info", Content = "By ghost_1012."})
 
 local Paragraph = Tab:CreateParagraph({Title = "Info", Content = "Discord Server : https://discord.gg/5tBNqX3Ngp"})
