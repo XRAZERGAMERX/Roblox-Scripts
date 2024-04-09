@@ -693,7 +693,7 @@ local Input = Tab:CreateInput({
 local Button = Tab:CreateButton({
    Name = "Restart Script (If Its Buggy)",
    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/XRAZERGAMERX/Roblox-Scripts/main/My%20Own%20Script%20Hub/My%20Own%20Roblox%20Script%20Hub"))()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/XRAZERGAMERX/Roblox-Scripts/main/My%20Own%20Script%20Hub/My%20Own%20Roblox%20Script%20Hub'))()
    end,
 })
 
