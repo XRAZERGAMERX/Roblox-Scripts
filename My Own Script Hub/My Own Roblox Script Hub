@@ -5,8 +5,8 @@ local Window = Rayfield:CreateWindow({
    LoadingTitle = "Loading Script Hub With Build-In Features",
    LoadingSubtitle = "By ghost_1012.",
    ConfigurationSaving = {
-      Enabled = false,
-      FolderName = nil, -- Create a custom folder for your hub/game
+      Enabled = true,
+      FolderName = configmyownscripthub, -- Create a custom folder for your hub/game
       FileName = "Script Hub With Build-In Features"
    },
    Discord = {
@@ -22,7 +22,7 @@ local Window = Rayfield:CreateWindow({
       FileName = "Script Hub",
       SaveKey = true,
       GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-      Key = "ORKfton18kvewf7mI0K1KlOMqcDmCAXR"
+      Key = "Key_Script_Hub_9dew874dDg6HeUZD2"
    }
 })
 
