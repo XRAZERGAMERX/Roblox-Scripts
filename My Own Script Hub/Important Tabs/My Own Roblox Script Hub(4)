@@ -51,6 +51,6 @@ local Paragraph = Tab:CreateParagraph({Title = "Infinite Ammo", Content = "Westb
 local Button = Tab:CreateButton({
    Name = "Back To Main Menu",
    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/XRAZERGAMERX/Roblox-Scripts/main/My%20Own%20Roblox%20Script%20Hub"))()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/XRAZERGAMERX/Roblox-Scripts/main/My%20Own%20Script%20Hub/My%20Own%20Roblox%20Script%20Hub'))()
    end,
 })
