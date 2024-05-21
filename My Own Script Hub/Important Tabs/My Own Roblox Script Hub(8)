@@ -44,9 +44,9 @@ Rayfield:Notify({
 },
 })
 
-local Paragraph = Tab:CreateParagraph({Title = "Aimbot TeamCheck On/True", Content = "Any Game"}
+local Paragraph = Tab:CreateParagraph({Title = "Aimbot TeamCheck On/True [DO NOT RUN REALLY BUGGY]", Content = "Any Game"}
     
-local Paragraph = Tab:CreateParagraph({Title = "Aimbot TeamCheck Off/False", Content = "Any Game"}
+local Paragraph = Tab:CreateParagraph({Title = "Aimbot TeamCheck Off/False [DO NOT RUN REALLY BUGGY]", Content = "Any Game"}
 
 local Button = Tab:CreateButton({
    Name = "Back To Main Menu",
