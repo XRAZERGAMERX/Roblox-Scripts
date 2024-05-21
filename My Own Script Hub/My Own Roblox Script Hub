@@ -157,7 +157,7 @@ local Button = MainTab:CreateButton({
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Aimbot TeamCheck On/True",
+   Name = "Aimbot TeamCheck On/True [DO NOT RUN REALLY BUGGY]",
    Callback = function()
         local teamCheck = true
 local fov = 150
@@ -220,7 +220,7 @@ end)
 
 
 local Button = MainTab:CreateButton({
-   Name = "Aimbot TeamCheck Off/False",
+   Name = "Aimbot TeamCheck Off/False [DO NOT RUN REALLY BUGGY]",
    Callback = function()
         local teamCheck = false
 local fov = 150
